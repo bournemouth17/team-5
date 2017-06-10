@@ -1,0 +1,64 @@
+<!DOCTYPE httml>
+<html>
+<head>
+  <title>RNLI</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script>
+setInterval (function PlaySound(soundObj) {
+  var sound = document.getElementById(soundObj);
+  sound.Play();
+}, 10000);
+</script>
+
+<embed src="{{ url_for('static', filename='beeping.mp3') }}" autostart="false" width="0" height="0" id="soundObj"
+enablejavascript="true">
+
+  <style>
+  .boxed {
+    border: solid 1px #ea9f25;
+    background-color: #ea9f25;
+    padding:10px;
+    width: 400px;
+    border-radius: 25px;
+    text-align: center;
+    position: relative;
+    bottom: -35px;
+  }
+  h1 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .btn {
+    width: 300px;
+    min-height: 150px;
+    margin: 20px;
+    font-size: 30px;
+  }
+  .centerTable {
+    margin: 0px auto;
+  }
+  </style>
+</head>
+    <body>
+      <div class="container-fluid">
+        <div class="row content">
+          <h1 align="center"> NOT BREATHING </h1>
+        </div>
+        </br>
+    <div align="center">
+      <div class="boxed"> {{test3}} </br>
+        </div>
+      <br>
+        <hr>
+        <a href="explore" class="btn btn-warning" role="button"> EXPLORE </a>
+        <a href="index" class="btn btn-warning" role="button"> HOME </a>
+      </div>
+    </div>
+  </div>
+
+  </body>
+</html>
