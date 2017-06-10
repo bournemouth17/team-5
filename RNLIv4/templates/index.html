@@ -1,0 +1,53 @@
+<!DOCTYPE httml>
+<html>
+<head>
+    <title>RNLI</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+      <style>
+      .bg-1 {
+          background-color: #ffffff; /* White */
+          color: #555555;
+      }
+      h1 {
+        color: #ea503f;
+        font-family: courier;
+      }
+      .btn {
+        width: 300px;
+        min-height: 150px;
+        margin: 20px;
+        font-size: 30px;
+      }
+      .centerTable {
+        margin: 0px auto;
+      }
+      </style>
+
+</head>
+<body>
+  <div class="container-fluid bg-1 text-center">
+  <h1> RNLI LIFEBOAT CREW CASUALTY CARE </h1>
+
+  <div class="container-fluid bg-3 text-center">
+    <h3> Please select casualty category </h3>
+
+    <table class ="centerTable">
+        <tr>
+          <th> <a href="notbreathing" class="btn btn-danger btn-lg" role="button"> Unconscious <br> Not Breathing </a> </th>
+          <th>   <a href="breathing" class="btn btn-danger btn-lg" role="button"> Unconscious <br> Breathing </a> </th>
+        </tr>
+    </table>
+  </br>
+    <table class ="centerTable">
+        <tr>
+          <th> <a href="bigsick" class="btn btn-warning btn-lg" role="button"> Conscious <br> Big Sick </a> </th>
+          <th> <a href="littlesick" class="btn btn-warning btn-lg" role="button"> Conscious <br> Little Sick </a> </th>
+    </table>
+  </div>
+</body>
+</html>
