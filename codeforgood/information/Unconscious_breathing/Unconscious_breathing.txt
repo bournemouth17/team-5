@@ -1,11 +1,11 @@
-Injury </small> </h2>
-        <p> Open airway using jaw thrust and prepare suction </br>
-          CONSIDER Plastic Airway (Give 15 litres/min and Oxygen via free flow mask)</br>
-          Treat traumatic injuries and Keep warm with a blanket </br>
-          Monitor and evacuate </br>
-          Open airway using head tilt chin lift and prepare suction
-            <h3 align ="center"><small> Illness/Immersion </small> </h2>
-          Open airway using head tilt chin lift and prepare suction </br>
-          CONSIDER Plastic Airway (Give 15 litres/min and Oxygen via free flow mask)</br>
-          Place in recovery, position and keep warm in blanket</br>
-          Monitor and evacuate</br>
+Injury
+Open airway using jaw thrust and prepare suction
+CONSIDER Plastic Airway (Give 15 litres/min and Oxygen via free flow mask)
+Treat traumatic injuries and Keep warm with a blanket
+Monitor and evacuate
+Open airway using head tilt chin lift and prepare suction
+Illness/Immersion
+Open airway using head tilt chin lift and prepare suction
+CONSIDER Plastic Airway (Give 15 litres/min and Oxygen via free flow mask)
+Place in recovery, position and keep warm in blanket
+Monitor and evacuate
