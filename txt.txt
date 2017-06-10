@@ -1,0 +1,36 @@
+Goals: 
+- Quick & accurate diagnosis and treatment of the patient
+	* digitalised version of the casualty care check cards, which was proven not user-friendly and difficult to utilise in stressful and challenging situations
+- Updating made easier to achieve
+	* link to external server
+	* cheaper and less hassle than re-distributing paper handbooks
+	* provide up to date treatments and procedures to maximise care  
+- Environmental factors put into consideration 
+	* simple large buttons that can be used in high stress environment
+	* Implementation of vibration notifications in loud surroundings
+	* Voice feedback through headset 
+	* Water resistance IP68
+
+Technologies Leveraged:
+- Framework:
+	*Flask - quick for prototyping 
+	       - lack of resources (e.g time)
+
+- Programming languages: 
+	* Python 
+	* HTML5
+	* CSS
+	* JavaScript
+
+- User Interface
+	* HTML5
+	* CSS
+	* JavaScript
+
+- Hardware
+	* Water resistance IP68
+	* Infinity Display (Samsung) + Radio 
+	* Rugged 
+ 
+
+
