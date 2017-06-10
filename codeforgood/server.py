@@ -1,3 +1,8 @@
+"""
+This python script uses the web framework of flask that allows the developer to build a successful web application 
+that can feed in editable text files to create dynamic web content that can easily be changed remotely from the app 
+through a server
+"""
 #import the flask library
 from flask import Flask
 #from the flask library we will use the render_template method
