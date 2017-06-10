@@ -19,6 +19,15 @@
         color: #ea503f;
         font-family: courier;
       }
+
+      .btn {
+        min-width: 300px;
+      }
+
+      .centerTable {
+        margin: 0px auto;
+      }
+
       </style>
 
 </head>
@@ -28,12 +37,16 @@
 
   <div class="container-fluid bg-3 text-center">
     <h3> Please select casualty category </h3>
-        <form>
-          <a href="notbreathing.html" class="btn btn-danger" role="button"> Unconscious Not Breathing </a>
-          <a href="breathing.html" class="btn btn-danger" role="button"> Unconscious Breathing </a><br>
-          <a href="bigsick.html" class="btn btn-warning" role="button"> Conscious Big Sick </a>
-          <a href="littlesick.html" class="btn btn-warning" role="button"> Conscious Little Sick </a>
-        </form>
+
+    <table class ="centerTable">
+        <tr>
+          <th> <a href="notbreathing.html" class="btn btn-danger" role="button"> Unconscious Not Breathing </a> </th>
+          <th>   <a href="breathing.html" class="btn btn-danger" role="button"> Unconscious Breathing </a> </th>
+        </tr>
+        <tr>
+          <th> <a href="bigsick.html" class="btn btn-warning" role="button"> Conscious Big Sick </a> </th>
+          <th> <a href="littlesick.html" class="btn btn-warning" role="button"> Conscious Little Sick </a> </th>
+    </table>
   </div>
 </body>
 </html>
