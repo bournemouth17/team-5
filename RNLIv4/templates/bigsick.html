@@ -7,6 +7,17 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script>
+setInterval (function PlaySound(soundObj) {
+  var sound = document.getElementById(soundObj);
+  sound.Play();
+}, 10000);
+</script>
+
+<embed src="beeping.wav" autostart="false" width="0" height="0" id="sound1"
+enablejavascript="true">
+
+
   <style>
   .boxed {
     border: solid 1px #ea9f25;
