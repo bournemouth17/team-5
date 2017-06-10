@@ -5,6 +5,6 @@ setInterval (function PlaySound(soundObj) {
 }, 10000);
 </script>
 
-<embed src="beeping.wav" autostart="false" width="0" height="0" id="sound1"
+<embed src="{{ url_for('static', filename='beeping.mp3') }}" autostart="false" width="0" height="0" id="soundObj"
 enablejavascript="true">
 
