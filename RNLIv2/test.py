@@ -18,20 +18,20 @@ def bigsick():
 @app.route('/littlesick')
 def littlesick():
 	btn2 = open('information/Conscious_little_sick.txt', 'r+').read()
-	return render_template('littlesick.html', test=btn2)
+	return render_template('littlesick.html', test1=btn2)
 
 
 # Conscious_big_sick
 @app.route('/breathing')
 def breathing():
 	btn3 = open('information/Unconscious_breathing.txt', 'r+').read()
-	return render_template('breathing.html', test=btn3)
+	return render_template('breathing.html', test2=btn3)
 
 # Conscious_big_sick
 @app.route('/notbreathing')
 def notbreathing():
 	btn4 = open('information/Unconscious_not_breathing.txt', 'r+').read()
-	return render_template('notbreathing.html', test=btn4)
+	return render_template('notbreathing.html', test3=btn4)
 
 
 if __name__ == "__main__":
