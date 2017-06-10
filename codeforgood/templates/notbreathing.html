@@ -1,15 +1,12 @@
 <!DOCTYPE httml>
 <html>
 <head>
-  <!--start of the webpage-->
   <title>RNLI</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!--- importing relevant bootstrap libraries---> 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <!--- javascript excerpt to implement beeping noise on page load --->
     <script>
 setInterval (function PlaySound(soundObj) {
   var sound = document.getElementById(soundObj);
@@ -19,7 +16,7 @@ setInterval (function PlaySound(soundObj) {
 
 <embed src="{{ url_for('static', filename='beeping.mp3') }}" autostart="false" width="0" height="0" id="soundObj"
 enablejavascript="true">
-  <!--- Styling of page --->
+
   <style>
   .boxed {
     border: solid 1px #ea9f25;
@@ -46,24 +43,20 @@ enablejavascript="true">
   }
   </style>
 </head>
-    <!--- Main content of page --->
-    <body>
-      <div class="container-fluid">
-        <div class="row content">
-          <h1 align="center"> NOT BREATHING </h1>
+<body>
+    <div class="container-fluid">
+  <div class="row content">
+    <h1 align="center"> Not Breathing </h1>
         </div>
-        </br>
     <div align="center">
-      <div class="boxed"> {{test3}} </br>
-        </div>
-      <!--- Navigation buttons ---> 
-      <br>
+      <div class="boxed"> 
+	  <strong><p>{{test3|safe}}</p></strong>
+      </div>
         <hr>
+        <br>
         <a href="explore" class="btn btn-warning" role="button"> EXPLORE </a>
         <a href="index" class="btn btn-warning" role="button"> HOME </a>
       </div>
-    </div>
-  </div>
-
-  </body>
+</body>
+</html>
 </html>
